@@ -27,7 +27,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
+          title={`NKDucks \n The Finest Food in Ghana`}
         />
 
         <div className={styles.navContainer}>

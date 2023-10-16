@@ -113,3 +113,31 @@
         margin: 88px 0px 40px 0px;
     }
 }
+
+/* Styling for the restaurant content section */
+.contentListContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: var(--standard-light-grey); /* Adding a light background to differentiate the section */
+}
+
+.contentList {
+    list-style-type: disc; /* Adding bullet points */
+    margin: 0;
+    padding: 0 0 0 40px; /* Indenting the lists for a better visual appeal */
+    line-height: 1.5; /* Spacing out the list items */
+}
+
+.listItem {
+    font-size: 18px; /* Making the font a bit larger */
+    margin-bottom: 12px; /* Spacing between items */
+    color: var(--standard-black); /* Making text darker for better visibility */
+    transition: all 0.3s ease-in-out; /* Adding a smooth transition */
+}
+
+.listItem:hover {
+    color: var(--standard-gold); /* Change color on hover for a subtle interaction effect */
+    margin-left: 10px; /* Shifting the text a bit to the right on hover */
+}
