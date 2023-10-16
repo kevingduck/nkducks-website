@@ -16,10 +16,10 @@ const IndexPage = () => {
     <Layout disablePaddingBottom>
       {/* Hero Container */}
       <Hero
-        maxWidth={'500px'}
-        image={'/nkDucksKitchenBanner.jpg'}  // Use the appropriate path to the NK Ducks Kitchen image
-        title={'NK Ducks Kitchen'}
-        subtitle={'Delicious Dishes Just For You'}
+        maxHeight={'5000px'}
+        image={'/nkducks-kitchen-banner.jpg'}  // Use the appropriate path to the NK Ducks Kitchen image
+        title={''}
+        subtitle={''}
         ctaText={''}
         ctaAction={goToOrder}
       />
